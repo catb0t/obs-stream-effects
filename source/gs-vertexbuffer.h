@@ -24,12 +24,12 @@
 #include "util-math.h"
 #include "util-memory.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
 #include <graphics/graphics.h>
 #pragma warning(pop)
-}
+//}
 
 namespace gs {
 	class vertex_buffer {
@@ -68,9 +68,9 @@ namespace gs {
 
 		/*!
 		* \brief Copy Constructor
-		* 
 		*
-		* \param other 
+		*
+		* \param other
 		*/
 		vertex_buffer(vertex_buffer const& other);
 

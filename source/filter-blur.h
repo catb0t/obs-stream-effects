@@ -33,12 +33,12 @@
 #include "gs-rendertarget.h"
 #include "plugin.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include "callback/signal.h"
+#include <obs/callback/signal.h>
 #pragma warning(pop)
-}
+//}
 
 namespace filter {
 	namespace blur {
@@ -58,7 +58,7 @@ namespace filter {
 
 		class blur_instance {
 			obs_source_t*   m_source;
-			std::shared_ptr<gs::rendertarget> rt_source; 
+			std::shared_ptr<gs::rendertarget> rt_source;
 			std::shared_ptr<gs::rendertarget> rt_primary;
 			std::shared_ptr<gs::rendertarget> rt_secondary;
 

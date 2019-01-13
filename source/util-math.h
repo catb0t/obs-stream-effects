@@ -24,9 +24,9 @@
 #include <utility>
 
 // OBS
-#include <graphics/vec2.h>
-#include <graphics/vec3.h>
-#include <graphics/vec4.h>
+#include <obs/graphics/vec2.h>
+#include <obs/graphics/vec3.h>
+#include <obs/graphics/vec4.h>
 
 // Constants
 #define PI 3.1415926535897932384626433832795

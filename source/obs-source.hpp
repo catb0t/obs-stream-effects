@@ -25,9 +25,9 @@
 #include <string>
 #include "util-event.hpp"
 
-extern "C" {
-#include "obs.h"
-}
+//extern "C" {
+#include <obs/obs.hpp>
+//}
 
 namespace obs {
 	class source {

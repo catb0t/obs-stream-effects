@@ -19,7 +19,7 @@
 
 #pragma once
 #include <functional>
-#include <obs.h>
+#include <obs/obs.hpp>
 
 namespace obs {
 	typedef std::function<void(void* data, struct audio_data const* audio, bool muted)> audio_capture_callback_t;

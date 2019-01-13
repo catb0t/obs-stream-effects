@@ -30,9 +30,9 @@
 #include "obs-source.hpp"
 #include "plugin.h"
 
-extern "C" {
-#include <obs-source.h>
-}
+//extern "C" {
+#include <obs/obs-source.h>
+//}
 
 namespace Source {
 	class MirrorAddon {

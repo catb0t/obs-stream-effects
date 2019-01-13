@@ -20,17 +20,17 @@
 #include "gs-mipmapper.h"
 #include "plugin.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <graphics/graphics.h>
-#include <obs-module.h>
-#include <obs.h>
+#include <obs/graphics/graphics.h>
+#include <obs/obs-module.h>
+#include <obs/obs.hpp>
 #pragma warning(pop)
 #if defined(WIN32) || defined(WIN64)
 #include <windows.h>
 #endif
-}
+//}
 
 // Here be dragons!
 // This is to add support for mipmap generation which is by default not possible with libobs.

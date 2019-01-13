@@ -20,12 +20,12 @@
 #include "gs-effect.h"
 #include <stdexcept>
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <obs.h>
+#include <obs/obs.hpp>
 #pragma warning(pop)
-}
+//}
 
 gs::effect::effect() : m_effect(nullptr) {}
 

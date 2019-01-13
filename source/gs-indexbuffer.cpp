@@ -19,12 +19,12 @@
 
 #include "gs-indexbuffer.h"
 #include "gs-limits.h"
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <obs.h>
+#include <obs/obs.hpp>
 #pragma warning(pop)
-}
+//}
 
 gs::index_buffer::index_buffer(uint32_t maximumVertices)
 {

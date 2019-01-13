@@ -25,16 +25,16 @@
 #include "gs-sampler.h"
 #include "gs-texture.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <graphics/graphics.h>
-#include <graphics/matrix4.h>
-#include <graphics/vec2.h>
-#include <graphics/vec3.h>
-#include <graphics/vec4.h>
+#include <obs/graphics/graphics.h>
+#include <obs/graphics/matrix4.h>
+#include <obs/graphics/vec2.h>
+#include <obs/graphics/vec3.h>
+#include <obs/graphics/vec4.h>
 #pragma warning(pop)
-}
+//}
 
 namespace gs {
 	class effect_parameter {

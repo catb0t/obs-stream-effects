@@ -21,14 +21,14 @@
 #include "strings.h"
 #include "util-math.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include "graphics/graphics.h"
-#include "graphics/matrix4.h"
-#include "util/platform.h"
+#include <obs/graphics/graphics.h>
+#include <obs/graphics/matrix4.h>
+#include <obs/util/platform.h>
 #pragma warning(pop)
-}
+//}
 
 // Initializer & Finalizer
 static filter::Transform* filterTransformInstance;

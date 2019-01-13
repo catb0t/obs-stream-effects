@@ -28,9 +28,9 @@
 #include "gs-texture.h"
 #include "gs-vertexbuffer.h"
 
-extern "C" {
-#include <obs.h>
-}
+//extern "C" {
+#include <obs/obs.hpp>
+//}
 
 // Data Defines
 #define D_TYPE "CustomShader.Type"

@@ -20,13 +20,13 @@
 #pragma once
 #include "plugin.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <obs-source.h>
-#include <util/platform.h>
+#include <obs/obs-source.h>
+#include <obs/util/platform.h>
 #pragma warning(pop)
-}
+//}
 
 #include <string>
 

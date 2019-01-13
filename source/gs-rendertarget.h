@@ -22,12 +22,12 @@
 #include <memory>
 #include "gs-texture.h"
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <graphics/graphics.h>
+#include <obs/graphics/graphics.h>
 #pragma warning(pop)
-}
+//}
 
 namespace gs {
 	class rendertarget {

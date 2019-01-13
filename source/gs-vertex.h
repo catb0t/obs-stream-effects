@@ -21,12 +21,12 @@
 #include <cinttypes>
 #include <xmmintrin.h>
 #include "gs-limits.h"
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <graphics/vec3.h>
+#include <obs/graphics/vec3.h>
 #pragma warning(pop)
-}
+//}
 
 namespace gs {
 	struct vertex {

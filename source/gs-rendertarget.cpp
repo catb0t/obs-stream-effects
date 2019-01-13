@@ -20,13 +20,13 @@
 #include "gs-rendertarget.h"
 #include <stdexcept>
 
-extern "C" {
+//extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4201)
-#include <graphics/graphics.h>
-#include <obs.h>
+#include <obs/graphics/graphics.h>
+#include <obs/obs.hpp>
 #pragma warning(pop)
-}
+//}
 
 gs::rendertarget::~rendertarget()
 {

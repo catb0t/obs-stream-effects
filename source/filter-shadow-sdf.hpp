@@ -29,9 +29,9 @@
 #include "gs-vertexbuffer.h"
 #include "plugin.h"
 
-extern "C" {
-#include <obs.h>
-}
+//extern "C" {
+#include <obs/obs.hpp>
+//}
 
 namespace filter {
 	namespace shadow_sdf {

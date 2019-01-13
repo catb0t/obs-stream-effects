@@ -17,7 +17,7 @@
 
 #include "gfx-effect-source.h"
 #include <fstream>
-#include <util/platform.h>
+#include <obs/util/platform.h>
 #include "strings.h"
 
 bool gfx::effect_source::property_type_modified(void*, obs_properties_t* props, obs_property_t*, obs_data_t* sett)

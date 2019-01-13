@@ -24,9 +24,9 @@
 #include <cinttypes>
 #include <string>
 
-extern "C" {
-#include "obs.h"
-}
+//extern "C" {
+#include <obs/obs.hpp>
+//}
 
 namespace obs {
 	namespace tools {

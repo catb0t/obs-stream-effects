@@ -22,9 +22,9 @@
 #include "gs-texture.h"
 #include "obs-source.hpp"
 
-extern "C" {
-#include <obs.h>
-}
+//extern "C" {
+#include <obs/obs.hpp>
+//}
 
 namespace gfx {
 	class source_texture {

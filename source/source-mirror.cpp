@@ -26,10 +26,10 @@
 #include "obs-tools.hpp"
 #include "strings.h"
 
-extern "C" {
-#include <media-io/audio-io.h>
-#include <obs-config.h>
-}
+//extern "C" {
+#include <obs/media-io/audio-io.h>
+#include <obs/obs-config.h>
+//}
 
 #define S_SOURCE_MIRROR "Source.Mirror"
 #define P_SOURCE "Source.Mirror.Source"
